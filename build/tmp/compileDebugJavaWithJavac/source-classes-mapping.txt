@@ -1,0 +1,8 @@
+com/google/codelabs/productimagesearch/databinding/ItemProductBinding.java
+ com.google.codelabs.productimagesearch.databinding.ItemProductBinding
+com/google/codelabs/productimagesearch/databinding/ActivityProductSearchBinding.java
+ com.google.codelabs.productimagesearch.databinding.ActivityProductSearchBinding
+com/google/codelabs/productimagesearch/databinding/ActivityObjectDetectorBinding.java
+ com.google.codelabs.productimagesearch.databinding.ActivityObjectDetectorBinding
+com/google/codelabs/productimagesearch/BuildConfig.java
+ com.google.codelabs.productimagesearch.BuildConfig

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/anandshreya/Product Search Demo/final/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_object_detector.xml",
+        "source": "/home/anandshreya/Product Search Demo/final/app/src/main/res/layout/activity_object_detector.xml"
+    },
+    {
+        "merged": "/home/anandshreya/Product Search Demo/final/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_product_search.xml",
+        "source": "/home/anandshreya/Product Search Demo/final/app/src/main/res/layout/activity_product_search.xml"
+    },
+    {
+        "merged": "/home/anandshreya/Product Search Demo/final/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_product.xml",
+        "source": "/home/anandshreya/Product Search Demo/final/app/src/main/res/layout/item_product.xml"
+    }
+]

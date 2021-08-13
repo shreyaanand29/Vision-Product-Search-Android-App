@@ -1,0 +1,190 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.google.codelabs.productimagesearch"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/anandshreya/Product Search Demo/final/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/anandshreya/Product Search Demo/final/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/anandshreya/Product Search Demo/final/app/src/main/AndroidManifest.xml:5:5-67
+11-->/home/anandshreya/Product Search Demo/final/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <queries>
+13-->/home/anandshreya/Product Search Demo/final/app/src/main/AndroidManifest.xml:7:5-11:15
+14        <intent>
+14-->/home/anandshreya/Product Search Demo/final/app/src/main/AndroidManifest.xml:8:9-10:18
+15            <action android:name="android.media.action.IMAGE_CAPTURE" />
+15-->/home/anandshreya/Product Search Demo/final/app/src/main/AndroidManifest.xml:9:13-73
+15-->/home/anandshreya/Product Search Demo/final/app/src/main/AndroidManifest.xml:9:21-70
+16        </intent>
+17    </queries>
+18
+19    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+20    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/d0d44299f533606dcf4bb717e7f902d7/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+21-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/d0d44299f533606dcf4bb717e7f902d7/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:22-76
+22
+23    <application
+23-->/home/anandshreya/Product Search Demo/final/app/src/main/AndroidManifest.xml:13:5-39:19
+24        android:allowBackup="true"
+24-->/home/anandshreya/Product Search Demo/final/app/src/main/AndroidManifest.xml:14:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.3.1] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/8bced359853724a0d6d7c2c5cef263a4/core-1.3.1/AndroidManifest.xml:24:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->/home/anandshreya/Product Search Demo/final/app/src/main/AndroidManifest.xml:15:9-43
+28        android:label="@string/app_name"
+28-->/home/anandshreya/Product Search Demo/final/app/src/main/AndroidManifest.xml:16:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->/home/anandshreya/Product Search Demo/final/app/src/main/AndroidManifest.xml:17:9-54
+30        android:supportsRtl="true"
+30-->/home/anandshreya/Product Search Demo/final/app/src/main/AndroidManifest.xml:18:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.ProductImageSearch" >
+32-->/home/anandshreya/Product Search Demo/final/app/src/main/AndroidManifest.xml:19:9-56
+33        <provider
+33-->/home/anandshreya/Product Search Demo/final/app/src/main/AndroidManifest.xml:21:9-29:20
+34            android:name="androidx.core.content.FileProvider"
+34-->/home/anandshreya/Product Search Demo/final/app/src/main/AndroidManifest.xml:22:13-62
+35            android:authorities="com.google.codelabs.productimagesearch.fileprovider"
+35-->/home/anandshreya/Product Search Demo/final/app/src/main/AndroidManifest.xml:23:13-86
+36            android:exported="false"
+36-->/home/anandshreya/Product Search Demo/final/app/src/main/AndroidManifest.xml:24:13-37
+37            android:grantUriPermissions="true" >
+37-->/home/anandshreya/Product Search Demo/final/app/src/main/AndroidManifest.xml:25:13-47
+38            <meta-data
+38-->/home/anandshreya/Product Search Demo/final/app/src/main/AndroidManifest.xml:26:13-28:54
+39                android:name="android.support.FILE_PROVIDER_PATHS"
+39-->/home/anandshreya/Product Search Demo/final/app/src/main/AndroidManifest.xml:27:17-67
+40                android:resource="@xml/file_paths" />
+40-->/home/anandshreya/Product Search Demo/final/app/src/main/AndroidManifest.xml:28:17-51
+41        </provider>
+42
+43        <activity android:name="com.google.codelabs.productimagesearch.ObjectDetectorActivity" >
+43-->/home/anandshreya/Product Search Demo/final/app/src/main/AndroidManifest.xml:31:9-36:20
+43-->/home/anandshreya/Product Search Demo/final/app/src/main/AndroidManifest.xml:31:19-95
+44            <intent-filter>
+44-->/home/anandshreya/Product Search Demo/final/app/src/main/AndroidManifest.xml:32:13-35:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/home/anandshreya/Product Search Demo/final/app/src/main/AndroidManifest.xml:33:17-69
+45-->/home/anandshreya/Product Search Demo/final/app/src/main/AndroidManifest.xml:33:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/home/anandshreya/Product Search Demo/final/app/src/main/AndroidManifest.xml:34:17-77
+47-->/home/anandshreya/Product Search Demo/final/app/src/main/AndroidManifest.xml:34:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity android:name="com.google.codelabs.productimagesearch.ProductSearchActivity" />
+50-->/home/anandshreya/Product Search Demo/final/app/src/main/AndroidManifest.xml:38:9-59
+50-->/home/anandshreya/Product Search Demo/final/app/src/main/AndroidManifest.xml:38:19-56
+51
+52        <service
+52-->[com.google.mlkit:object-detection:16.2.4] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/18e5cd6abb99082227e2b383deaef2ee/jetified-object-detection-16.2.4/AndroidManifest.xml:8:9-14:19
+53            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+53-->[com.google.mlkit:object-detection:16.2.4] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/18e5cd6abb99082227e2b383deaef2ee/jetified-object-detection-16.2.4/AndroidManifest.xml:9:13-91
+54            android:directBootAware="true"
+54-->[com.google.mlkit:common:17.1.1] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/9fed08f3baa37f5098e2c3d3af2ce546/jetified-common-17.1.1/AndroidManifest.xml:17:13-43
+55            android:exported="false" >
+55-->[com.google.mlkit:object-detection:16.2.4] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/18e5cd6abb99082227e2b383deaef2ee/jetified-object-detection-16.2.4/AndroidManifest.xml:10:13-37
+56            <meta-data
+56-->[com.google.mlkit:object-detection:16.2.4] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/18e5cd6abb99082227e2b383deaef2ee/jetified-object-detection-16.2.4/AndroidManifest.xml:11:13-13:85
+57                android:name="com.google.firebase.components:com.google.mlkit.vision.objects.defaults.internal.DefaultObjectsRegistrar"
+57-->[com.google.mlkit:object-detection:16.2.4] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/18e5cd6abb99082227e2b383deaef2ee/jetified-object-detection-16.2.4/AndroidManifest.xml:12:17-136
+58                android:value="com.google.firebase.components.ComponentRegistrar" />
+58-->[com.google.mlkit:object-detection:16.2.4] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/18e5cd6abb99082227e2b383deaef2ee/jetified-object-detection-16.2.4/AndroidManifest.xml:13:17-82
+59            <meta-data
+59-->[com.google.mlkit:vision-internal-vkp:18.1.0] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/0d1f05de55721e7e4a0aa132c681965d/jetified-vision-internal-vkp-18.1.0/AndroidManifest.xml:11:13-13:85
+60                android:name="com.google.firebase.components:com.google.mlkit.vision.vkp.VkpRegistrar"
+60-->[com.google.mlkit:vision-internal-vkp:18.1.0] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/0d1f05de55721e7e4a0aa132c681965d/jetified-vision-internal-vkp-18.1.0/AndroidManifest.xml:12:17-103
+61                android:value="com.google.firebase.components.ComponentRegistrar" />
+61-->[com.google.mlkit:vision-internal-vkp:18.1.0] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/0d1f05de55721e7e4a0aa132c681965d/jetified-vision-internal-vkp-18.1.0/AndroidManifest.xml:13:17-82
+62            <meta-data
+62-->[com.google.mlkit:vision-common:16.4.0] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/f4b9b91dc3e1adb798bb0e3efbda028c/jetified-vision-common-16.4.0/AndroidManifest.xml:12:13-14:85
+63                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+63-->[com.google.mlkit:vision-common:16.4.0] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/f4b9b91dc3e1adb798bb0e3efbda028c/jetified-vision-common-16.4.0/AndroidManifest.xml:13:17-124
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[com.google.mlkit:vision-common:16.4.0] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/f4b9b91dc3e1adb798bb0e3efbda028c/jetified-vision-common-16.4.0/AndroidManifest.xml:14:17-82
+65            <meta-data
+65-->[com.google.mlkit:common:17.1.1] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/9fed08f3baa37f5098e2c3d3af2ce546/jetified-common-17.1.1/AndroidManifest.xml:20:13-22:85
+66                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+66-->[com.google.mlkit:common:17.1.1] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/9fed08f3baa37f5098e2c3d3af2ce546/jetified-common-17.1.1/AndroidManifest.xml:21:17-120
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[com.google.mlkit:common:17.1.1] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/9fed08f3baa37f5098e2c3d3af2ce546/jetified-common-17.1.1/AndroidManifest.xml:22:17-82
+68        </service>
+69
+70        <provider
+70-->[com.google.mlkit:common:17.1.1] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/9fed08f3baa37f5098e2c3d3af2ce546/jetified-common-17.1.1/AndroidManifest.xml:9:9-13:38
+71            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+71-->[com.google.mlkit:common:17.1.1] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/9fed08f3baa37f5098e2c3d3af2ce546/jetified-common-17.1.1/AndroidManifest.xml:10:13-78
+72            android:authorities="com.google.codelabs.productimagesearch.mlkitinitprovider"
+72-->[com.google.mlkit:common:17.1.1] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/9fed08f3baa37f5098e2c3d3af2ce546/jetified-common-17.1.1/AndroidManifest.xml:11:13-69
+73            android:exported="false"
+73-->[com.google.mlkit:common:17.1.1] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/9fed08f3baa37f5098e2c3d3af2ce546/jetified-common-17.1.1/AndroidManifest.xml:12:13-37
+74            android:initOrder="99" />
+74-->[com.google.mlkit:common:17.1.1] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/9fed08f3baa37f5098e2c3d3af2ce546/jetified-common-17.1.1/AndroidManifest.xml:13:13-35
+75
+76        <activity
+76-->[com.google.android.gms:play-services-base:17.6.0] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/a636c18dfe127b663f159f3ff6ad63c5/jetified-play-services-base-17.6.0/AndroidManifest.xml:23:9-26:75
+77            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+77-->[com.google.android.gms:play-services-base:17.6.0] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/a636c18dfe127b663f159f3ff6ad63c5/jetified-play-services-base-17.6.0/AndroidManifest.xml:24:13-79
+78            android:exported="false"
+78-->[com.google.android.gms:play-services-base:17.6.0] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/a636c18dfe127b663f159f3ff6ad63c5/jetified-play-services-base-17.6.0/AndroidManifest.xml:25:13-37
+79            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+79-->[com.google.android.gms:play-services-base:17.6.0] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/a636c18dfe127b663f159f3ff6ad63c5/jetified-play-services-base-17.6.0/AndroidManifest.xml:26:13-72
+80
+81        <meta-data
+81-->[com.google.android.gms:play-services-basement:17.6.0] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/5d73ce8037611da9495a0c58e6837d15/jetified-play-services-basement-17.6.0/AndroidManifest.xml:23:9-25:69
+82            android:name="com.google.android.gms.version"
+82-->[com.google.android.gms:play-services-basement:17.6.0] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/5d73ce8037611da9495a0c58e6837d15/jetified-play-services-basement-17.6.0/AndroidManifest.xml:24:13-58
+83            android:value="@integer/google_play_services_version" />
+83-->[com.google.android.gms:play-services-basement:17.6.0] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/5d73ce8037611da9495a0c58e6837d15/jetified-play-services-basement-17.6.0/AndroidManifest.xml:25:13-66
+84
+85        <provider
+85-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/1677a60738453a95bca32914f1d311c0/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+86            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+86-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/1677a60738453a95bca32914f1d311c0/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
+87            android:authorities="com.google.codelabs.productimagesearch.lifecycle-process"
+87-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/1677a60738453a95bca32914f1d311c0/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+88            android:exported="false"
+88-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/1677a60738453a95bca32914f1d311c0/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+89            android:multiprocess="true" />
+89-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/1677a60738453a95bca32914f1d311c0/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+90
+91        <service
+91-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/d0d44299f533606dcf4bb717e7f902d7/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+92            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+92-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/d0d44299f533606dcf4bb717e7f902d7/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+93            android:exported="false" >
+93-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/d0d44299f533606dcf4bb717e7f902d7/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+94            <meta-data
+94-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/d0d44299f533606dcf4bb717e7f902d7/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+95                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+95-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/d0d44299f533606dcf4bb717e7f902d7/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+96                android:value="cct" />
+96-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/d0d44299f533606dcf4bb717e7f902d7/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+97        </service>
+98        <service
+98-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/b8aa0796104e1db4953df24da60a8232/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+99            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+99-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/b8aa0796104e1db4953df24da60a8232/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+100            android:exported="false"
+100-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/b8aa0796104e1db4953df24da60a8232/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+101            android:permission="android.permission.BIND_JOB_SERVICE" >
+101-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/b8aa0796104e1db4953df24da60a8232/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+102        </service>
+103
+104        <receiver
+104-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/b8aa0796104e1db4953df24da60a8232/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+105            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+105-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/b8aa0796104e1db4953df24da60a8232/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+106            android:exported="false" />
+106-->[com.google.android.datatransport:transport-runtime:2.2.6] /home/anandshreya/.gradle/caches/transforms-2/files-2.1/b8aa0796104e1db4953df24da60a8232/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+107    </application>
+108
+109</manifest>
