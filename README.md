@@ -1,1 +1,1 @@
-# Vision-Product-Search-Android-App
+Read the readme.docx
